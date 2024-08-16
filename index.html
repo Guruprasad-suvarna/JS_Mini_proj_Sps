@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock paper Scizzor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h2>Rock paper Scizzor</h2>
+      <div class="game-container">
+        <div class="images">
+          <button id="Stone"><img src="Stone.png" /></button>
+          <button id="Paper"><img src="paper.png" /></button>
+          <button id="Scizzor"><img src="scizzors.png" /></button>
+        </div>
+        <div class="score">
+          <div class="You">
+            <p id="score-u">0</p>
+            <p>You</p>
+          </div>
+          <div class="Comp">
+            <p id="score-comp">0</p>
+            <p>Computer</p>
+          </div>
+        </div>
+        <div class="msg-box">
+          <div class="box">
+            <p id="msg-para">Play Your Turn</p>
+          </div>
+        </div>
+        <div id="rst-btn">
+          <button id="reset">Reset game</button>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
